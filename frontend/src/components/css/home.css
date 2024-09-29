@@ -1,0 +1,618 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.homeImg {
+    width: 100%;
+    height: 680px;
+    z-index: -1;
+    position: relative;
+
+}
+
+.forrent {
+    position: absolute;
+    left: 800px;
+    top: 650px;
+}
+
+.forsale {
+    position: absolute;
+    left: 650px;
+    top: 650px;
+}
+
+
+.homeTitle {
+    position: absolute;
+    z-index: 9999;
+    color: white;
+    font-size: 67px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    top: 220px;
+    margin-left: 280px; 
+
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 900;
+
+}
+
+.homeTitle2 {
+    position: absolute;
+    z-index: 9999;
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    top: 370px;
+    margin-left: 470px;
+
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ready {
+    position: absolute;
+    z-index: 9999;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.436);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+    top: 570px;
+    left: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.homeMain {
+    padding-bottom: 120px;
+}
+
+
+.homeAboutText {
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+#about {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 47px;
+    text-transform: uppercase;
+}
+
+#aboutText {
+    line-height: 2;
+}
+
+.homeAbout .cardBorder {
+    border: none;
+}
+
+.villa {
+    width: 60%;
+    height: 500px;
+    margin-left: 200px;
+}
+
+.homeAbout {
+    padding-bottom: 120px;
+}
+
+#tradition {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60;
+    text-transform: uppercase;
+}
+
+.homeBar {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 170px;
+    padding-bottom: 120px;
+    position: relative;
+}
+
+.BarItem {
+    padding-right: 110px;
+    font-size: 18px;
+    align-items: center;
+    margin-right: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.fa-solid.fa-house,
+.fa-regular.fa-thumbs-up,
+.fa-solid.fa-tag,
+.fa-solid.fa-trophy {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.BarItem.col {
+    text-align: center;
+}
+
+.BarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+
+}
+
+.homeProperties {
+    padding-bottom: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.homeProperties .cardBorder {
+    border: none;
+}
+
+
+.homePropertiesTitle {
+    text-align: center;
+    align-items: center;
+    padding-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 40px;
+    margin-left: 50px;
+
+}
+
+.homePropertiesTitleR {
+    text-align: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 40px;
+    margin-left: 50px;
+
+}
+
+.homeProperties .propertiesCard {
+    background-color: rgba(233, 233, 233, 0.806);
+    border: hidden;
+}
+
+.PropertiesPrice {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.PropertiesTitle {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+div.propertiesCard.card {
+    width: 300px;
+    margin-left: 40px;
+}
+
+
+
+.propertiesCardWrapper {
+    position: relative;
+}
+
+.propertyTypeWrapper {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 999;
+}
+
+.propertyType {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.homeCardsTitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 10px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.homeCardsBody {
+    font-family: "Livvic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    position: absolute;
+    width: 80%;
+    top: 100%;
+    left: 50%;
+    padding: 10px 20px;
+    transform: translate(-50%, -50%);
+    background-color: #dddddde7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+img.card-img-top {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+.homeCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 40px;
+    padding-bottom: 60px;
+
+}
+
+div.homeCardscard.card {
+    margin-bottom: 90px;
+    text-align: center;
+    margin-right: 20px;
+
+    border: none;
+    width: 350px;
+
+}
+
+.homeCardsTitle.card-title.h5 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+a.carousel-control-prev {
+    margin-left: -30px;
+    margin-top: -70px;
+}
+
+a.carousel-control-next {
+    margin-right: -70px;
+    margin-top: -70px;
+} 
+
+
+.PropertiesCardsContainer.row {
+    opacity: 0;
+    visibility: hidden; 
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.carousel-item.active .PropertiesCardsContainer.row {
+    opacity: 1; 
+    visibility: visible;
+}
+
+.PropertiesCarousel {
+    height: auto; 
+}
+
+div.carousel-indicators{
+    margin-bottom: -40px;
+    margin-left: 370px;
+    visibility: hidden;
+
+}
+
+
+
+.homeTypesCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    position: relative;
+}
+
+
+.galleryFooterSpace {
+    height: 130px;
+}
+
+.PropertyTypes {
+    position: relative;
+}
+
+.propertytypes {
+    position: absolute;
+    bottom: 410px;
+    left: 610px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 35px;
+    text-transform: uppercase;
+
+    font-family: "Stylish", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+
+
+}
+
+.homeTypesCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.homeTypesCards .imageContainer {
+    position: relative;
+}
+
+.homeTypesCards .TypesTextContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.homeTypesCards img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+    padding-right: 17px;
+    overflow: hidden;
+
+}
+
+
+
+.shadow-effect {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #ECECEC;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10), 0 15px 12px rgba(0, 0, 0, 0.02);
+}
+
+.sectionTitle {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    line-height: 1.5;
+    margin: 0 0 17px 0;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.shadow-effect p {
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0 0 17px 0;
+    font-weight: 300;
+}
+
+.img-circle {
+    border-radius: 50%;
+    vertical-align: middle;
+    max-width: 90px;
+    min-height: 90px;
+    transform-style: preserve-3d;
+    margin: 0 auto 17px;
+}
+
+.review-name {
+    margin: -17px auto 0;
+    display: table;
+    width: auto;
+    background: linear-gradient(100deg, #ddd, #ddd);
+    padding: 9px 35px;
+    border-radius: 12px;
+    text-align: center;
+    color: black;
+    box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.12), 0px 5px 7px rgba(0, 0, 0, 0.5);
+}
+
+#customer-review .item {
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 0px;
+    opacity: 0.2;
+    transform: scale3d(0.8, 0.8, 1);
+    transition: all 0.3s ease-in-out;
+}
+
+#customer-review .owl-item.active.center .item {
+    opacity: 1;
+    transform: scale3d(1.0, 1.0, 1);
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #ddd;
+    transform: translate3d(0px, -50%, 0px) scale(0.8);
+}
+
+.owl-carousel .owl-dots {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.owl-carousel .owl-dots .owl-dot {
+    display: inline-block;
+}
+
+.owl-carousel .owl-dots .owl-dot span {
+    background: #ddd;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 2px 5px;
+    transform: translate3d(0px, -50%, 0px) scale(0.3);
+    transform-origin: 50% 50% 0;
+    transition: all 250ms ease-out 0s;
+}
+
+section#reviews.reviews.pt-70.pb-70 {
+    width: 70%;
+    margin-left: 245px;
+    padding-bottom: 120px;
+}
+
+p.reviewText {
+    font-size: 13px;
+    font-family: "Livvic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h5.reviewName {
+    font-size: 18px;
+}
+
+small.reviewAddress {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#reviews{
+    padding-bottom: 120px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+      overflow-x: hidden;
+    }
+    .forsale,
+    .forrent {
+      margin-left: -360px;
+      margin-top: -90px;
+    }
+    .homeMain {
+      position: relative;
+    }
+    .homeMainText {
+      margin-left: -150px;
+    }
+    p.ready {
+      margin-left: 310px;
+      margin-top: -90px;
+    }
+    .homeTitle,
+    .homeTitle2 {
+      margin-top: -90px;
+      font-size: 38px;
+    }
+    .homeCardscard.card {
+      margin-left: 170px;
+    }
+    .homeCards {
+      margin-top: 270px;
+    }
+    .villa {
+      margin-left: 200px;
+      width: 100%;
+      height: 100%;
+    }
+    #about {
+      font-size: 10px;
+    }
+    .homeAboutText {
+      position: absolute;
+      width: 50%;
+      margin-left: -50px;
+      top: 140%;
+      left: 58%;
+      transform: translate(-50%, -50%);
+      font-size: 15px;
+    }
+    .homeBar {
+      margin-left: 100px;
+    }
+    .homeProperties .propertiesCard {
+      margin-left: 100px;
+    }
+    div.propertiesCard.card {
+      margin-left: 215px;
+      margin-bottom: 40px;
+    }
+    h2.homePropertiesTitle {
+      margin-left: -5px;
+    }
+    a.carousel-control-next {
+      margin-left: -10px;
+      height: 100%;
+      position: absolute;
+      top: 34.5%;
+      transform: translate(-50%, -50%);
+    }
+    .homeTypesContainer {
+      margin-top: -90px;
+      margin-left: -50px;
+    }
+    .homeTypesContainer img {
+      max-width: 350px;
+      height: auto;
+      display: block;
+    }
+    .imageContainer {
+      margin-left: 10px;
+    }
+    h3.propertytypes {
+      margin-bottom: 40px;
+      margin-left: -380px;
+    }
+    div.container.mt-5 {
+      margin-left: 30px;
+    }
+    div.shadow-effect {
+      margin-left: 0px;
+    }
+  }
+  

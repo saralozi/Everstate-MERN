@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.teamRow {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+
+  
+
+/* img.card-img-top.teamImage {
+    width: 700px;
+    height: 400px;
+} */
+
+
+
+
+
+.teamBanner {
+    padding-bottom: 120px;
+    margin-top: 20px;
+}
+
+div.teamTitle.card-title.h5 {
+    font-size: 75px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-left: 100px;
+    padding-bottom: 30px;
+}
+
+p.teamSubtitle.card-text {
+    font-size: 22px;
+    margin-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.teamText.col {
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.279);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding-top: 56px;
+    padding-bottom: 56px;
+} 
+
+img.card-img-top.teamImage{
+    height: 400px;
+}
+
+.teamAbout {
+    border: none;
+    width: 80%;
+    margin-left: 190px;
+    padding-bottom: 120px;
+}
+
+.teamAbout .card {
+    border: none;
+}
+
+.teamImage2,
+.teamImage3 {
+    width: 100%;
+    height: auto;
+}
+
+.teamImage2,
+.teamImage3 {
+    max-width: 100%; 
+    height: auto;
+}
+
+.teamAboutText {
+    width: 80%;
+    margin-left: 110px;
+    margin-bottom: 10px;
+    line-height: 2;
+    margin-top: -16px;
+    font-size: 15px;
+}
+
+p#TeamAboutText1.card-text,
+p#TeamAboutText2.card-text {
+    background-color: rgba(128, 128, 128, 0.279);
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    width: 100%; 
+    margin-left: -100px;
+    width: 450px;
+}
+
+.agentCardTitle {
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.teamProps {
+    padding-bottom: 40px;
+    margin-left: 25px;
+}
+
+a.editButton.btn.btn-primary {
+    background-color: rgb(2, 2, 85);
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+a.editButton.btn.btn-primary:hover {
+    background-color: white;
+    color: black;
+}
+
+button.editButton.add.btn.btn-primary {
+    margin-left: 135px;
+}
+
+.agentContainer {
+    margin-top: 30px;
+}
+
+.teamProps {
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+button.destinationButton.add.btn.btn-primary {
+    margin-left: 140px;
+    margin-top: 60px;
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+a.editButton.btn.btn-primary {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+div.agentCard.card {
+    padding-right: 60px;
+}
+
+.agentCard {
+    position: relative;
+}
+
+.imageOverlay {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    width: 83%;
+    height: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: none;
+}
+
+.agentCard:hover .imageOverlay {
+    display: flex;
+}
+
+.imageText {
+    margin: 0 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.imageText i {
+    margin-right: 5px;
+}
+
+img.card-img-top.agentImage {
+    height: 400px;
+}
+
+h1.teamAgentTitle {
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 60px;
+    font-family: "Reem Kufi Fun", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.agentContainer {
+    padding-bottom: 80px;
+}
+
+h1.teamAgentTitle {
+    margin-bottom: -40px;
+}

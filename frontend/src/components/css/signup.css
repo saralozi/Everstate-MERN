@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.registerContainer{
+    color:black; 
+    font-weight: bold;
+    line-height: 1.3;
+    letter-spacing: 0.7px;
+    word-spacing: 1.5px;
+    width: 60%;
+    margin-left: 300px;
+    padding-bottom: 120px;
+ 
+}
+
+div.registerForm{
+    width: 50%;
+    margin-left: 220px;
+
+}
+
+
+.register{
+    text-transform: uppercase;
+    font-size: 40px;
+    color:black; 
+    text-align: center;
+    padding: 10px 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 80px;
+}
+
+
+button.registerButton {
+    background-color:black; 
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+
+
+  }
+  
+  button.registerButton:hover {
+    background-color: white;
+    color:black; 
+  }
+
+
+
+

@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button.updateButton.btn.btn-primary{
+    background-color: black;
+    border-color: black;
+}
+
+button.updateButton.btn.btn-primary:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+
+}
+
+
+img.img-fluid.updatePhoto{
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.updateRentForm{
+    border-radius: 20px;
+    font-weight: bold;
+    line-height: 1.3;
+    letter-spacing: 0.7px;
+    word-spacing: 1.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+form.updateRentForm{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 120px;
+    margin-top: 20px;
+ 
+}
+

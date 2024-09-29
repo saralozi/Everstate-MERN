@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.brand {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+a.brand.navbar-brand{
+    color:black; 
+    font-weight: bold;
+}
+
+a.nav-item.item.nav-link{
+    color:black; 
+    font-weight: bold;
+}
+
+a#basic-nav-dropdown.dropdown-toggle.nav-link{
+    color:black; 
+    font-weight: bold;
+}
+
+a.nav-item.item.dropdown-item{
+    color:black; 
+    font-weight: bold;
+}
+
+a.brand.navbar-brand {
+    font-size: 30px;
+}
+
+.item {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1.5px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+
+.custom-margin {
+    margin-left: 20px; 
+}
+
+
+.signup-login-space {
+    margin-left: 20px; 
+}
+
+
+
+

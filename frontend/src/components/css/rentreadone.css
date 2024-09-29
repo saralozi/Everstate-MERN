@@ -1,0 +1,24 @@
+button.deleteButton.btn.btn-primary {
+    margin-left: 110px;
+    background-color: black;
+    border-color: black;
+}
+
+button.deleteButton.btn.btn-primary:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+
+}
+
+a.updateButton.btn.btn-primary {
+    background-color: black;
+    border-color: black;
+    margin-left: 20px;
+}
+
+a.updateButton.btn.btn-primary:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+}

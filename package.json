@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react-owl-carousel2": "^0.3.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}

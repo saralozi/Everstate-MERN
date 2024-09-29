@@ -1,0 +1,48 @@
+.SearchBuyContainer {
+    margin: 20px;
+}
+
+.input-field {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.input-field1 {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 178px;
+}
+.button {
+    background-color: #090909;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buy-card-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+@media screen and (max-width: 768px) {
+    .SearchBuyContainer {
+        margin-left: 60px;
+    }
+    .input-field {
+        width: 29%;
+        margin-bottom: 20px;
+    }
+    .input-field1 {
+        width: 25%;
+        margin-bottom: 20px;
+    }
+    .buy-card-container {
+        gap: 30px;
+    }
+}

@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.aboutImg {
+    width: 80%;
+    height: 550px;
+    z-index: -1;
+    position: relative;
+    margin-left: 150px;
+    margin-top: 30px;
+    opacity: 0.9;
+}
+
+.aboutTitle {
+    position: absolute;
+    z-index: 9999;
+    color: black;
+    margin-left: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(255, 255, 255, 0.393);
+    padding: 20px 40px;
+    font-size: 60px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    left: -40px;
+    top: 250px;
+}
+
+.aboutSubtitle {
+    font-weight: bold;
+    position: absolute;
+    z-index: 9999;
+    color: black;
+    font-family: monospace;
+    left: 600px;
+    text-transform: uppercase;
+    font-size: 20px;
+    top: 670px;
+    word-spacing: 8px;
+}
+
+.aboutMain,
+.aboutCard {
+    padding-bottom: 120px;
+}
+
+
+.aboutCard {
+    border: none;
+    width: 80%;
+    margin-left: 150px;
+}
+
+.aboutCard .card {
+    border: none;
+}
+
+div.aboutText2{
+    width: 80%;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    line-height: 2;
+}
+
+.aboutText {
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    line-height: 2;
+}
+
+
+.aboutCardImage {
+    width: 100%;
+    height: auto;
+  }
+
+  img.aboutCardImage {
+    width: 500px; 
+    height: auto; 
+  }
+
+@media (min-width: 426px) and (max-width: 768px) {
+   
+    .aboutImg {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    
+    .aboutTitle {
+       
+        margin-left: 270px;
+        padding: 10px 20px;
+        font-size: 45px;
+        top: 300px;
+    }
+    
+    .aboutSubtitle {
+        
+        left: 210px;
+        font-size: 18px;
+        top: 670px;
+    }
+    
+  
+    .aboutCard {
+        width: 80%;
+        margin-left: 0px;
+    }
+    
+    .aboutText {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
+    
+    img.aboutCardImage{
+        width: 600px;
+        margin-left: 90px;
+        height: 500px;
+
+    }
+    
+
+
+  
+}
+
